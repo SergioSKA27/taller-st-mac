@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+st.markdown('''
+<style>
+#MainMenu, header {visibility: hidden;}
+</style>
+''', unsafe_allow_html=True)
 t,inx = st.columns([0.8,0.2])
 t.title('🔮Magia')
 inx.page_link('pages/index.py', label='Volver al índice principal',icon='📝',use_container_width=True)
